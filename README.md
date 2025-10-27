@@ -1,1 +1,4 @@
 # Search_engine
+
+cmake -G "MinGW Makefiles" -B build -S .
+cmake --build build

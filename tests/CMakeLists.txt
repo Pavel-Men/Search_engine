@@ -1,0 +1,3 @@
+
+add_subdirectory(test_InvertedIndex)
+add_subdirectory(test_SearchServer)
