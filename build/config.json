@@ -1,6 +1,6 @@
 {
 	"config": {
-		"name": "SkillboxSearchEngine",
+		"name": "SearchEngine",
 		"version": 1.0,
 		"max_responses": 5,
 		"time_updateting": 2
