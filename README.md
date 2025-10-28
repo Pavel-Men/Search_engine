@@ -37,10 +37,10 @@ JSON. Результат работы программы сохраняется 
 
 ## Требования
 Для установки и запуска проекта, необходимо:
-1. Скачайте и установите [CMake](https://cmake.org/).
-2. Добавте в переменные среды Windows путь к папке ..\CMake\bin (пример: "C:\Program Files\CMake\bin").  Инструкцию по добавлению в переменные среды Windows можно посмотреть [здесь](https://remontka.pro/environment-variables-windows/).
-3. Скачайте и установите [MinGW-W64-builds](https://www.mingw-w64.org/downloads/).
-4. Добавте в переменные среды Windows путь к папке ..\mingw64\bin (пример: "C:\Program Files\mingw64\bin").
+1. Скачайть и установить [CMake](https://cmake.org/).
+2. Добавтить в переменные среды Windows путь к папке ..\CMake\bin (пример: "C:\Program Files\CMake\bin").  Инструкцию по добавлению в переменные среды Windows можно посмотреть [здесь](https://remontka.pro/environment-variables-windows/).
+3. Скачайть и установить [MinGW-W64-builds](https://www.mingw-w64.org/downloads/).
+4. Добавтить в переменные среды Windows путь к папке ..\mingw64\bin (пример: "C:\Program Files\mingw64\bin").
 
 ## Установка и запуск
 Для Windows:
