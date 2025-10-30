@@ -3,7 +3,7 @@
 #include <thread>
 
 
-void InvertedIndex::getWordsFromDoc(const size_t id)
+void InvertedIndex::getWordsFromDoc(const size_t& id)
 {
     if(id >= docs.size()) return;
     string word;
@@ -22,7 +22,7 @@ void InvertedIndex::getWordsFromDoc(const size_t id)
     freqDictionaryAccess.unlock();
 }
 
-void InvertedIndex::updateDocumentBase(vector<string> input_docs)
+void InvertedIndex::updateDocumentBase(const vector<string>& input_docs)
 {
     docs = input_docs;
     vector<thread> threads;
@@ -36,7 +36,7 @@ void InvertedIndex::updateDocumentBase(vector<string> input_docs)
     }
 }
 
-vector<Entry> InvertedIndex::getWordCount(const string &word)
+vector<Entry> InvertedIndex::getWordCount(const string& word)
 {
     if(freqDictionary.contains(word))
     {

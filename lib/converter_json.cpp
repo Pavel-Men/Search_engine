@@ -102,7 +102,7 @@ vector<string> ConverterJSON::getRequests()
         return requests;
 }
 
-void ConverterJSON::putAnswers(vector<vector<RelativeIndex>> answers)
+void ConverterJSON::putAnswers(const vector<vector<RelativeIndex>>& answers)
 {
     for(auto i = 0; i < answers.size(); i++)
     {
@@ -125,6 +125,10 @@ void ConverterJSON::putAnswers(vector<vector<RelativeIndex>> answers)
         }
     }
     ofstream file("answers.json");
-    file << answersJSON.dump(4);
-    file.close();
+    if(file.is_open())
+    {
+        file << answersJSON.dump(4);
+        file.close();
+    }
+    else cerr << "answers.json could not be created!" << endl;
 }

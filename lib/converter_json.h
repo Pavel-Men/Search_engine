@@ -32,7 +32,7 @@ public:
 
     vector<string> getRequests();
 
-    void putAnswers(vector<vector<RelativeIndex>> answers);
+    void putAnswers(const vector<vector<RelativeIndex>>& answers);
 };
 
 #endif // CONVERTER_JSON_H

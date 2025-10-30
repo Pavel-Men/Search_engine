@@ -53,7 +53,7 @@ TEST(TestCaseInvertedIndex, TestBasic2) {
     TestInvertedIndexFunctionality(docs, requests, expected);
 }
 
-TEST(TestCaseInvertedIndex, TestInvertedIndexMissingWord) {
+TEST(TestCaseInvertedIndex, MissingWord) {
     const vector<string> docs = {
         "a b c d e f g h i j k l",
         "statement"

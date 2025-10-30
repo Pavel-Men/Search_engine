@@ -19,11 +19,11 @@ class InvertedIndex
 public:
     InvertedIndex() = default;
 
-    void updateDocumentBase(vector<string> input_docs);
+    void updateDocumentBase(const vector<string>& input_docs);
 
     vector<Entry> getWordCount(const string& word);
 
-    void getWordsFromDoc(const size_t id);
+    void getWordsFromDoc(const size_t& id);
 
 };
 

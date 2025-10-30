@@ -71,3 +71,4 @@ TEST(TestCaseSearchServer, TestTop5) {
     vector<vector<RelativeIndex>> result = srv.search(request);
     ASSERT_EQ(result, expected);
 }
+

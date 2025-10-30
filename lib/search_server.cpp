@@ -16,7 +16,7 @@ void SearchServer::getUniqueWords(const string& request,
 }
 
 void SearchServer::getDocIdCount(const set<string>& request,
-                map<size_t, float>& docIdCount)
+                                map<size_t, float>& docIdCount)
 {
     for(const auto& word : request)
     {
